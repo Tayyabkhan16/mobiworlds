@@ -1,0 +1,117 @@
+@media only screen and (max-width: 320px){
+    .navbar-btn{
+        padding: 10px 80px !important;
+    }
+    .navabar-logo-text span{
+        font-size: 25px;
+    }
+    .navabar-logo-text small{
+        font-size: 18px;
+    }
+    .indexh-span-1{
+        font-size: 20px !important;
+    }
+    .indexh-inner-btn{
+        font-size: 12px;
+    }
+    .indexh-inner-btn:hover{
+        padding: 10px 20px;
+    }
+    .indexs-span-1{
+        font-size: 20px !important;
+    }
+    .indexs-span-3{
+        font-size: 20px;
+    }
+    .indexc-span-1{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px){
+    .navbar-btn{
+        padding: 10px 110px !important;
+    }
+    .navabar-logo-text span{
+        font-size: 25px;
+    }
+    .navabar-logo-text small{
+        font-size: 18px;
+    }
+    .hi-search-input{   
+        padding-right: 30px !important;
+    }
+    .indexh-span-1{
+        font-size: 25px !important;
+    }
+    .indexc-span-1{
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width: 425px){
+    
+    .navbar-collapse ul{
+        margin-left: 0px;
+    }
+    .navbar-btn{
+        margin-left: 0px;
+        margin-top: 20px;
+        padding: 10px 130px;
+    }
+    .indexh-span-1{
+        font-size: 30px;
+    }
+    .indexs-span-1{
+        font-size: 25px;
+    }
+}
+@media only screen and (min-width: 426px) and (max-width: 767px){
+    .navbar-collapse ul{
+        margin-left: 0px;
+    }
+    .navbar-btn{
+        margin-left: 0px;
+        margin-top: 20px;
+        padding: 10px 150px;
+    }
+    .indexs-span-1{
+        font-size: 30px !important;
+    }
+    .indexh-span-1{
+        font-size: 30px !important;
+    }
+}
+@media only screen and (min-width: 426px) and (max-width: 570px){
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 990px){
+    .navbar-collapse ul{
+        margin-left: 0px;
+    }
+    .navbar-btn{
+        margin-left: 0px;
+        margin-top: 20px;
+        padding: 10px 290px;
+    }
+    .indexs-span-1{
+        font-size: 30px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 770px){
+
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+    .navbar-collapse ul{
+        margin-left: 40px;
+    }
+    .navbar-collapse ul li{
+        margin: 0px 10px;
+    }
+}
+@media only screen and (min-width: 1440px){
+    .navbar-btn{
+        margin-left: 200px;
+    }
+}

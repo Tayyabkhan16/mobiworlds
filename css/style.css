@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed&family=Josefin+Sans&family=Montserrat:wght@500&family=Scada&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/*<<<<<<<<<<<<<<<<<< navbar start >>>>>>>>>>>>>>>>>>>>*/
+.navabar-logo-text span{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+.navabar-logo-text small{
+    font-size: 25px;
+    color: #f9004d;
+}
+.navbar-collapse ul{
+    margin-left: 100px;
+}
+.navbar-collapse ul li{
+    margin: 0px 20px;
+}
+.navbar-collapse ul li .nav-link {
+    color: #fff !important;
+}
+.navbar-collapse ul li .nav-link:hover {
+    color: #f9004d !important;
+    border-bottom: 2px solid #f9004d;
+}
+.navbar-btn{
+    background-color: #f9004d;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-left: 100px;
+    transition: .6s all;
+}
+.navbar-btn:hover{
+    border: 1px solid #f9004d;
+    color: #f9004d;
+}
+/*<<<<<<<<<<<<<< navbar end >>>>>>>>>>>>>>>>*/
+/* ======================================================================================================================= */
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< index page start here >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* <<<<<<<<<<<<<<<<< header sacion start here >>>>>>>>>>>>>> */
+.indexh-main-cont{
+    background-image: linear-gradient(#0c333cb6, #0c333cb6),url(../img/index-bg.jpg);
+    background-size: cover;
+}
+.indexh-inner-col-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.indexh-inner-col-2{
+    text-align: center;
+    box-shadow: 5px 5px 15px #000000b0;
+    padding: 70px 15px;
+    margin: 100px 0px;
+}
+.indexh-span-1{
+    color: #fff;
+    font-size: 40px;
+}
+.indexh-span-2{
+    font-size: 15px;
+    color: #fff;
+}
+.indexh-inner-btn{
+    border-radius: 30px;
+    color: #fff;
+    background-color: #f9004d;
+    padding: 10px 30px;
+    margin-top: 20px;
+    transition: .6s all;
+}
+.indexh-inner-btn:hover{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 50px;
+    color: #f9004d;
+    border: 1px solid #f9004d;
+}
+/* <<<<<<<<<<<<<<<<<<<<<< header saction end here >>>>>>>>>>>>>>>>>> */
+/* slider saction start here */
+.index-slider-cont{
+    padding: 100px 0px;
+    background-color: #0c333c;
+}
+.indexs-col-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.indexs-col-2{
+    border-radius: 5px;
+    margin: 50px 0px;
+    text-align: center;
+    background-image: linear-gradient(#0c333cb4, #0c333cb4), url(../img/index-bg.jpg);
+    background-size: cover;
+}
+#carouselExampleIndicators{
+    box-shadow: 5px 5px 15px #00000094;
+}
+.indexs-col-3{
+    padding: 30px 10px;
+}
+.indexs-span-1{
+    color: #f9004d;
+    font-size: 50px;
+}
+.indexs-span-1-1{
+    color: #fff;
+}
+.indexs-span-2{
+    color: #fff;
+}
+.indexs-span-3{
+    color: #fff;
+    font-size: 25px;
+}
+.indexs-span-3-1{
+    color: #f9004d;
+}
+/* slider saction end here */
+
+
+/* card saction start here */
+.index-card-cont{
+    background-color: #0c333c;
+}
+.indexc-col-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.indexc-col-2{
+    padding-bottom: 50px;
+    text-align: center;
+}
+.indexc-span-1{
+    font-size: 40px;
+    color: #fff;
+}
+.indexc-span-1-1{
+    color: #f9004d;
+}
+/* ============================== */
+.blog-pag-carrd-v2 {
+    position: relative;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    /* background: #000; */
+    margin-top: 150px;
+    border-radius: 25px;
+  }
+  
+  .blog-pag-carrd-v2 .image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 25px;
+  }
+  
+  .blog-pag-carrd-v2 .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+    border-radius: 25px;
+  }
+  
+  .blog-pag-carrd-v2:hover .image img {
+    opacity: 0.5;
+    transform: translateX(30%);
+    /*100%*/
+  }
+  
+  .blog-pag-carrd-v2 .details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    background: white;
+    transition: 0.5s;
+    transform-origin: left;
+    transform: perspective(2000px) rotateY(-90deg);
+  }
+  
+  .blog-pag-carrd-v2:hover .details {
+    transform: perspective(2000px) rotateY(0deg);
+  }
+  
+  .blog-pag-carrd-v2 .details .center {
+    padding: 20px;
+    background: #0c333c;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .blog-pag-carrd-v2 .details .center h1 {
+    margin: 0;
+    padding: 0;
+    color: #f9004d;
+    line-height: 20px;
+    font-size: 25px;
+  }
+  
+  .blog-pag-carrd-v2 .details .center h1 span {
+    font-size: 14px;
+    color: #f9004d;
+  }
+  
+  .blog-pag-carrd-v2 .details .center p {
+    margin: 10px 0;
+    padding: 0;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 200 !important;
+  } 
+  .fw-bold{
+    color: #fff;
+  }
+  .indexc-col-3 a{
+    text-decoration: none;
+  }
+  /* ========================= */
+/* card saction end here */
+/* ======================================================================================================================= */
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< index page end here >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
