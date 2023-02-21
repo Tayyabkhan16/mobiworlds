@@ -126,6 +126,63 @@
 /* slider saction end here */
 
 
+/* provide mobile saction satart here */
+.indexp-cont{
+    background-image: linear-gradient(#0c333cb6, #0c333cb6),url(../img/index-bg.jpg);
+    background-size: cover;
+}
+.indexp-col-1{
+    text-align: center;
+    background-color: #f9004d;
+}
+.indexp-span-1{
+    color: #fff;
+    font-size: 40px;
+}
+.indexp-span-1-1{
+    color: #0c333c  ;
+}
+.indexp-col-2{
+    padding: 60px 20px;
+}
+.indexp-span-2{
+    color: #fff;
+    margin-top: 30px;
+}
+.indexp-inner-col-img1{
+    background-image: url(../img/pmi-1.webp);
+    background-size: cover;
+}
+.indexp-inner-col-img2{
+    background-image: url(../img/pmi-2.webp);
+    background-size: cover;
+}
+.indexp-inner-col-img3{
+    background-image: url(../img/pmi-3.jpg);
+    background-size: cover;
+}
+.indexp-inner-col-img4{
+    background-image: url(../img/pmi-4.jpg);
+    background-size: cover;
+}
+.indexp-inner-col-img5{
+    background-image: url(../img/pmi-5.jpg);
+    background-size: cover;
+}
+.indexp-inner-col-img6{
+    background-image: url(../img/pmi-6.jpg);
+    background-size: cover;
+}
+.indexp-inner-col-imgp{
+    padding: 110px 0px;
+}
+.indexp-span-3, .indexp-span-4{
+    color: #0c333c;
+    font-weight: 700;
+}
+/* provide mobile saction end here */
+
+
 /* card saction start here */
 .index-card-cont{
     background-color: #0c333c;
@@ -136,6 +193,7 @@
     align-items: center;
 }
 .indexc-col-2{
+    margin-top: 100px;
     padding-bottom: 50px;
     text-align: center;
 }
@@ -231,6 +289,50 @@
   }
   /* ========================= */
 /* card saction end here */
+
+
+/* main footer saction start here */
+.indexf-cont{
+    background-color: #032229;
+}
+.indexf-row-1{
+    padding: 60px 0px;
+}
+.indexf-col-1{
+    text-align: center;
+}
+.indexf-span-1{
+    color: #fff;
+    font-size: 50px;
+}
+.indexf-col-2{
+    /* padding: 50px 0px; */
+}
+.indexf-col-3{
+    padding: 0px 30px;
+}
+.indexf-small{
+    color: #f9004d;
+    font-size: 25px;
+}
+.indexf-span-2{
+    color: #fff;
+}
+.indexf-span-3, .indexf-span-4{
+    color: #f9004d;
+}
+.indexf-col-4 a{
+    text-decoration: none;
+    color: #fff;
+}
+.indexf-col-4 a:hover{
+    color: #f9004d;
+    border-bottom: 2px solid #f9004d;
+}
+.indexf-col-5{
+    padding-top: 80px;
+}
+/* main footer saction end here */
 /* ======================================================================================================================= */
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< index page end here >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
